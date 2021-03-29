@@ -1,1 +1,140 @@
-<mxfile host="app.diagrams.net" modified="2021-03-29T15:10:56.846Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" version="14.5.3" etag="SrfGQ61rrMkuY0PnWVq8" type="github"><diagram id="MoO0cnyyP2UefW5mUaq-">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-29T16:04:12.289Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="EAeqf-oHpMND_d9a0R1i" version="14.5.3" type="github">
+  <diagram id="MoO0cnyyP2UefW5mUaq-" name="stakeholder model">
+    <mxGraphModel dx="988" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gKRDd-9Ncf6lRHDHquEl-1" value="Primary Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="190" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gKRDd-9Ncf6lRHDHquEl-2" value="主要参与者：和系统的UI或API直接交互以达成目标" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="310" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gKRDd-9Ncf6lRHDHquEl-3" value="SPS Home 利益相关者模型" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="374" y="30" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gKRDd-9Ncf6lRHDHquEl-4" value="次要参与者：帮助主要参与者达成他们目标" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="520" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gKRDd-9Ncf6lRHDHquEl-5" value="Secondary Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="565" y="194" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gKRDd-9Ncf6lRHDHquEl-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gKRDd-9Ncf6lRHDHquEl-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="355" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gKRDd-9Ncf6lRHDHquEl-6" value="家庭成员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="340" y="350" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gKRDd-9Ncf6lRHDHquEl-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gKRDd-9Ncf6lRHDHquEl-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="270" as="targetPoint" />
+            <mxPoint x="297" y="350" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="285" y="310" />
+              <mxPoint x="355" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gKRDd-9Ncf6lRHDHquEl-12" value="系统管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="270" y="350" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gKRDd-9Ncf6lRHDHquEl-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="gKRDd-9Ncf6lRHDHquEl-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gKRDd-9Ncf6lRHDHquEl-14" value="智能家居解决方案提供商" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="580" y="350" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gKRDd-9Ncf6lRHDHquEl-16" value="不直接参与利益相关者：不通过直接交互影响系统" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="60" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gKRDd-9Ncf6lRHDHquEl-17" value="Non-Acting Stakeholder" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="104" y="180" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gKRDd-9Ncf6lRHDHquEl-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="270" as="targetPoint" />
+            <mxPoint x="430" y="350" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="430" y="310" />
+              <mxPoint x="355" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gKRDd-9Ncf6lRHDHquEl-18" value="IoT开放平台" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="420" y="350" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gKRDd-9Ncf6lRHDHquEl-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="gKRDd-9Ncf6lRHDHquEl-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="119" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gKRDd-9Ncf6lRHDHquEl-20" value="应用市场" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="105" y="290" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gKRDd-9Ncf6lRHDHquEl-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gKRDd-9Ncf6lRHDHquEl-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gKRDd-9Ncf6lRHDHquEl-22" value="涂鸦" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="390" y="490" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gKRDd-9Ncf6lRHDHquEl-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gKRDd-9Ncf6lRHDHquEl-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gKRDd-9Ncf6lRHDHquEl-23" value="萤石" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="450" y="490" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gKRDd-9Ncf6lRHDHquEl-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gKRDd-9Ncf6lRHDHquEl-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="335" y="460" />
+              <mxPoint x="430" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gKRDd-9Ncf6lRHDHquEl-24" value="物联" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="320" y="490" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gKRDd-9Ncf6lRHDHquEl-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="gKRDd-9Ncf6lRHDHquEl-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="525" y="460" />
+              <mxPoint x="430" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gKRDd-9Ncf6lRHDHquEl-28" value="XXX" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="510" y="490" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gKRDd-9Ncf6lRHDHquEl-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gKRDd-9Ncf6lRHDHquEl-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gKRDd-9Ncf6lRHDHquEl-30" value="Android市场" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="60" y="410" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gKRDd-9Ncf6lRHDHquEl-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gKRDd-9Ncf6lRHDHquEl-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gKRDd-9Ncf6lRHDHquEl-32" value="App Strore" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="135" y="410" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
