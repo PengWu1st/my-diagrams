@@ -1,1 +1,122 @@
-<mxfile host="app.diagrams.net" modified="2021-03-29T03:17:11.954Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" version="14.5.3" etag="7zVm9k6APvCFUzcvcCsk" type="github"><diagram id="veAfbDFjpXCSIC_7y7-0">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-29T03:47:30.311Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="zbyN15hRl4hja2aQ_Pbt" version="14.5.3" type="github">
+  <diagram id="veAfbDFjpXCSIC_7y7-0" name="Page-1">
+    <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RjkltVQLe9QIM1EcOP2_-6" value="异步服务调用者" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="450" y="240" width="360" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="RjkltVQLe9QIM1EcOP2_-21" value="HTTP异步服务集群" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="296" width="240" height="194" as="geometry" />
+        </mxCell>
+        <mxCell id="RjkltVQLe9QIM1EcOP2_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RjkltVQLe9QIM1EcOP2_-1" target="RjkltVQLe9QIM1EcOP2_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RjkltVQLe9QIM1EcOP2_-1" value="外部服务集群" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="226" width="220" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="RjkltVQLe9QIM1EcOP2_-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RjkltVQLe9QIM1EcOP2_-3" value="外部服务实例1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RjkltVQLe9QIM1EcOP2_-7" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="385" y="355" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RjkltVQLe9QIM1EcOP2_-8" value="" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="470" y="290" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RjkltVQLe9QIM1EcOP2_-9" value="" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="470" y="340" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RjkltVQLe9QIM1EcOP2_-10" value="" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="470" y="390" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RjkltVQLe9QIM1EcOP2_-11" value="请求处理线程池" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="465" y="520" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RjkltVQLe9QIM1EcOP2_-13" value="单线程+优先级延迟队列+HTTP异步模型" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="135" y="580" width="275" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RjkltVQLe9QIM1EcOP2_-14" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RjkltVQLe9QIM1EcOP2_-13" target="RjkltVQLe9QIM1EcOP2_-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="490" as="sourcePoint" />
+            <mxPoint x="240" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RjkltVQLe9QIM1EcOP2_-15" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="310" width="250" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="RjkltVQLe9QIM1EcOP2_-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="RjkltVQLe9QIM1EcOP2_-16" target="RjkltVQLe9QIM1EcOP2_-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RjkltVQLe9QIM1EcOP2_-31" value="4.HTTP异步check结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RjkltVQLe9QIM1EcOP2_-30">
+          <mxGeometry x="-0.3331" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RjkltVQLe9QIM1EcOP2_-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.063;entryY=1.024;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RjkltVQLe9QIM1EcOP2_-16" target="RjkltVQLe9QIM1EcOP2_-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RjkltVQLe9QIM1EcOP2_-33" value="5.请求未处理完且未超时，&lt;br&gt;计算下次check时间入队&lt;br&gt;等待下次check" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RjkltVQLe9QIM1EcOP2_-32">
+          <mxGeometry x="-0.0934" y="1" relative="1" as="geometry">
+            <mxPoint x="-63.35000000000001" y="-37.95" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RjkltVQLe9QIM1EcOP2_-16" value="" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="690" y="430" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RjkltVQLe9QIM1EcOP2_-17" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.queue_generic" vertex="1" parent="1">
+          <mxGeometry x="585" y="335" width="155" height="46.5" as="geometry" />
+        </mxCell>
+        <mxCell id="RjkltVQLe9QIM1EcOP2_-18" value="check线程+延迟优先级队列" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="510" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RjkltVQLe9QIM1EcOP2_-19" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="365" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RjkltVQLe9QIM1EcOP2_-20" value="HTTP异步服务提供者" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="375" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RjkltVQLe9QIM1EcOP2_-23" value="1.HTTP异步调用服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="90" width="145" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RjkltVQLe9QIM1EcOP2_-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.625;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="RjkltVQLe9QIM1EcOP2_-8" target="RjkltVQLe9QIM1EcOP2_-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="501" y="110" />
+              <mxPoint x="1040" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RjkltVQLe9QIM1EcOP2_-25" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RjkltVQLe9QIM1EcOP2_-8" target="RjkltVQLe9QIM1EcOP2_-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="260" as="sourcePoint" />
+            <mxPoint x="740" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RjkltVQLe9QIM1EcOP2_-27" value="2.调用callback将请求结果加入队列" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RjkltVQLe9QIM1EcOP2_-25">
+          <mxGeometry x="0.4289" y="-1" relative="1" as="geometry">
+            <mxPoint x="53.96" y="-28.78" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RjkltVQLe9QIM1EcOP2_-28" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.51;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="RjkltVQLe9QIM1EcOP2_-17" target="RjkltVQLe9QIM1EcOP2_-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="310" as="sourcePoint" />
+            <mxPoint x="620" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RjkltVQLe9QIM1EcOP2_-29" value="3.队首请求出队" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RjkltVQLe9QIM1EcOP2_-28">
+          <mxGeometry x="0.3025" y="2" relative="1" as="geometry">
+            <mxPoint x="14.68" y="-5.94" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RjkltVQLe9QIM1EcOP2_-34" value="" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="470" y="440" width="50" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
