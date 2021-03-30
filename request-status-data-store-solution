@@ -1,31 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2021-03-30T08:13:17.456Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="L2P2W-oaom3n2ugISkqJ" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-30T08:41:02.513Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="2OCFkM6p9kZLlwZmBobm" version="14.5.3" type="github">
   <diagram id="lxydPLFlVqSVRt-DVPFG" name="Page-1">
-    <mxGraphModel dx="1410" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="812" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="poLIaAcreYnyi9g2G59k-41" value="MongoDB集群" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;align=center;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="638" y="120" width="275" height="130" as="geometry" />
+          <mxGeometry x="558" y="90" width="275" height="130" as="geometry" />
         </mxCell>
         <mxCell id="poLIaAcreYnyi9g2G59k-6" value="调用方" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="50" y="400" width="210" height="170" as="geometry" />
         </mxCell>
         <mxCell id="poLIaAcreYnyi9g2G59k-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="414" width="440" height="306" as="geometry" />
+          <mxGeometry x="390" y="384" width="440" height="306" as="geometry" />
         </mxCell>
         <mxCell id="poLIaAcreYnyi9g2G59k-2" value="内部服务" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="450" y="440" width="430" height="290" as="geometry" />
+          <mxGeometry x="370" y="410" width="430" height="290" as="geometry" />
         </mxCell>
         <mxCell id="poLIaAcreYnyi9g2G59k-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="poLIaAcreYnyi9g2G59k-3" target="poLIaAcreYnyi9g2G59k-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="514" y="350" as="sourcePoint" />
+            <mxPoint x="434" y="320" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="poLIaAcreYnyi9g2G59k-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="poLIaAcreYnyi9g2G59k-3" target="poLIaAcreYnyi9g2G59k-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="poLIaAcreYnyi9g2G59k-3" value="请求处理线程" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="480" y="480" width="80" height="70" as="geometry" />
+          <mxGeometry x="400" y="450" width="80" height="70" as="geometry" />
         </mxCell>
         <mxCell id="poLIaAcreYnyi9g2G59k-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="460" width="120" height="60" as="geometry" />
@@ -37,105 +37,165 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="poLIaAcreYnyi9g2G59k-8" value="Redis集群" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="430" y="120" width="180" height="130" as="geometry" />
+          <mxGeometry x="350" y="90" width="180" height="130" as="geometry" />
         </mxCell>
         <mxCell id="poLIaAcreYnyi9g2G59k-9" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="155" width="80" height="60" as="geometry" />
+          <mxGeometry x="400" y="125" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="poLIaAcreYnyi9g2G59k-10" value="Redis" style="rounded=1;whiteSpace=wrap;html=1;align=right;" vertex="1" parent="1">
-          <mxGeometry x="455" y="170" width="85" height="60" as="geometry" />
+          <mxGeometry x="375" y="140" width="85" height="60" as="geometry" />
         </mxCell>
         <mxCell id="poLIaAcreYnyi9g2G59k-11" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
-          <mxGeometry x="457" y="179" width="50" height="42" as="geometry" />
+          <mxGeometry x="377" y="152.5" width="50" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="poLIaAcreYnyi9g2G59k-13" value="请求/结果/状态同步缓存Redis, 失败重试1次。检测Redis故障后降级不缓存Redis,并定时检测Redis故障恢复，恢复后继续缓存" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="320" y="260" width="140" height="90" as="geometry" />
+        <mxCell id="poLIaAcreYnyi9g2G59k-13" value="请求/结果/状态同步缓存Redis, 失败重试1次。检测Redis故障后降级不缓存Redis,并定时检测Redis故障恢复，恢复后继续缓存" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="180" y="200" width="150" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="poLIaAcreYnyi9g2G59k-14" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_looks_one_48px-128.png;align=right;" vertex="1" parent="1">
-          <mxGeometry x="292" y="260" width="28" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="poLIaAcreYnyi9g2G59k-15" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_looks_two_48px-128.png;align=right;" vertex="1" parent="1">
-          <mxGeometry x="290" y="360" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="poLIaAcreYnyi9g2G59k-16" value="请求/结果/状态存入内存队列" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="320" y="360" width="155" height="31" as="geometry" />
+        <mxCell id="poLIaAcreYnyi9g2G59k-16" value="请求/结果/状态存入内存队列" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="180" y="300" width="155" height="31" as="geometry" />
         </mxCell>
         <mxCell id="poLIaAcreYnyi9g2G59k-19" value="" style="rounded=0;whiteSpace=wrap;html=1;align=right;" vertex="1" parent="1">
-          <mxGeometry x="475" y="620" width="320" height="30" as="geometry" />
+          <mxGeometry x="395" y="590" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="poLIaAcreYnyi9g2G59k-20" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=right;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="475" y="620" width="50" height="30" as="geometry" />
+          <mxGeometry x="395" y="590" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="poLIaAcreYnyi9g2G59k-21" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=right;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="520" y="620" width="50" height="30" as="geometry" />
+          <mxGeometry x="440" y="590" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="poLIaAcreYnyi9g2G59k-22" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=right;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="565" y="620" width="50" height="30" as="geometry" />
+          <mxGeometry x="485" y="590" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="poLIaAcreYnyi9g2G59k-23" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=right;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="610" y="620" width="50" height="30" as="geometry" />
+          <mxGeometry x="530" y="590" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="poLIaAcreYnyi9g2G59k-24" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=right;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="655" y="620" width="50" height="30" as="geometry" />
+          <mxGeometry x="575" y="590" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="poLIaAcreYnyi9g2G59k-25" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=right;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="700" y="620" width="50" height="30" as="geometry" />
+          <mxGeometry x="620" y="590" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="poLIaAcreYnyi9g2G59k-32" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=right;fillColor=#60a917;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="750" y="620" width="45" height="30" as="geometry" />
+          <mxGeometry x="670" y="590" width="45" height="30" as="geometry" />
         </mxCell>
         <mxCell id="poLIaAcreYnyi9g2G59k-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.211;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="poLIaAcreYnyi9g2G59k-33" target="poLIaAcreYnyi9g2G59k-41">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="730.9000000000001" y="260" as="targetPoint" />
+            <mxPoint x="650.9000000000001" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="poLIaAcreYnyi9g2G59k-33" value="内存队列消费线程" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="654" y="480" width="85" height="70" as="geometry" />
+        <mxCell id="poLIaAcreYnyi9g2G59k-33" value="内存队列消费线程" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="574" y="450" width="85" height="70" as="geometry" />
         </mxCell>
         <mxCell id="poLIaAcreYnyi9g2G59k-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="poLIaAcreYnyi9g2G59k-38" target="poLIaAcreYnyi9g2G59k-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="poLIaAcreYnyi9g2G59k-38" value="MongoDB&lt;br&gt;主库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8;strokeColor=#000000;align=center;" vertex="1" parent="1">
-          <mxGeometry x="662.5" y="160" width="75" height="55" as="geometry" />
+          <mxGeometry x="582.5" y="130" width="75" height="55" as="geometry" />
         </mxCell>
         <mxCell id="poLIaAcreYnyi9g2G59k-39" value="MongoDB&lt;br&gt;从库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8;strokeColor=#000000;align=center;" vertex="1" parent="1">
-          <mxGeometry x="800" y="160" width="75" height="55" as="geometry" />
+          <mxGeometry x="720" y="130" width="75" height="55" as="geometry" />
         </mxCell>
         <mxCell id="poLIaAcreYnyi9g2G59k-42" value="数据同步" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="740" y="170" width="53" height="20" as="geometry" />
+          <mxGeometry x="660" y="140" width="53" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="poLIaAcreYnyi9g2G59k-44" value="文件队列消费线程" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="785" y="455" width="85" height="70" as="geometry" />
+        <mxCell id="poLIaAcreYnyi9g2G59k-44" value="文件队列消费线程" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="705" y="425" width="85" height="70" as="geometry" />
         </mxCell>
         <mxCell id="poLIaAcreYnyi9g2G59k-47" value="" style="endArrow=classic;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="poLIaAcreYnyi9g2G59k-44" target="poLIaAcreYnyi9g2G59k-41">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="800" y="390" as="sourcePoint" />
-            <mxPoint x="850" y="340" as="targetPoint" />
+            <mxPoint x="720" y="360" as="sourcePoint" />
+            <mxPoint x="770" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="poLIaAcreYnyi9g2G59k-49" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="poLIaAcreYnyi9g2G59k-33" target="poLIaAcreYnyi9g2G59k-44">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="740" y="580" as="sourcePoint" />
-            <mxPoint x="790" y="530" as="targetPoint" />
+            <mxPoint x="660" y="550" as="sourcePoint" />
+            <mxPoint x="710" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="poLIaAcreYnyi9g2G59k-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="poLIaAcreYnyi9g2G59k-50" target="poLIaAcreYnyi9g2G59k-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="poLIaAcreYnyi9g2G59k-50" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8;strokeColor=#000000;align=center;" vertex="1" parent="1">
-          <mxGeometry x="797.5" y="560" width="60" height="50" as="geometry" />
+        <mxCell id="poLIaAcreYnyi9g2G59k-50" value="文件队列" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8;strokeColor=#000000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="717.5" y="530" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="poLIaAcreYnyi9g2G59k-51" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="poLIaAcreYnyi9g2G59k-33" target="poLIaAcreYnyi9g2G59k-50">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="730" y="450" as="sourcePoint" />
-            <mxPoint x="780" y="400" as="targetPoint" />
+            <mxPoint x="650" y="420" as="sourcePoint" />
+            <mxPoint x="700" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="poLIaAcreYnyi9g2G59k-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="poLIaAcreYnyi9g2G59k-53" target="poLIaAcreYnyi9g2G59k-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="poLIaAcreYnyi9g2G59k-53" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeColor=#000000;align=center;direction=south;" vertex="1" parent="1">
-          <mxGeometry x="610" y="600" width="172.5" height="20" as="geometry" />
+          <mxGeometry x="530" y="570" width="172.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="poLIaAcreYnyi9g2G59k-56" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#B20000;align=center;fillColor=#e51400;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="620" y="530" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="poLIaAcreYnyi9g2G59k-57" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#B20000;align=center;fillColor=#e51400;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="620" y="335" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="poLIaAcreYnyi9g2G59k-58" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#B20000;align=center;fillColor=#e51400;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="670" y="425" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="poLIaAcreYnyi9g2G59k-59" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#B20000;align=center;fillColor=#e51400;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="676.5" y="500" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="poLIaAcreYnyi9g2G59k-60" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#2D7600;align=center;fillColor=#60a917;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="757.5" y="500" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="poLIaAcreYnyi9g2G59k-62" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#2D7600;align=center;fillColor=#60a917;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="767.5" y="330" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="poLIaAcreYnyi9g2G59k-63" value="批量消费内存队列数据" style="text;html=1;strokeColor=#B20000;fillColor=#e51400;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="880" y="350" width="155" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="poLIaAcreYnyi9g2G59k-64" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#B20000;align=center;fillColor=#e51400;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="850" y="350" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="poLIaAcreYnyi9g2G59k-65" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#B20000;align=center;fillColor=#e51400;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="850" y="389.5" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="poLIaAcreYnyi9g2G59k-66" value="请求/结果/状态批量持久化Mongo(失败重试1次）" style="text;html=1;strokeColor=#B20000;fillColor=#e51400;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="880" y="388.5" width="270" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="poLIaAcreYnyi9g2G59k-67" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#B20000;align=center;fillColor=#e51400;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="850" y="425" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="poLIaAcreYnyi9g2G59k-68" value="Mongo故障创建文件消费线程" style="text;html=1;strokeColor=#B20000;fillColor=#e51400;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="880" y="424" width="270" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="poLIaAcreYnyi9g2G59k-69" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#B20000;align=center;fillColor=#e51400;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="850" y="460" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="poLIaAcreYnyi9g2G59k-70" value="Mongo故障降级持久化文件队列" style="text;html=1;strokeColor=#B20000;fillColor=#e51400;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="880" y="459" width="270" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="poLIaAcreYnyi9g2G59k-71" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#2D7600;align=center;fillColor=#60a917;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="850" y="500" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="poLIaAcreYnyi9g2G59k-72" value="批量消费文件队列数据" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="880" y="499" width="270" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="poLIaAcreYnyi9g2G59k-73" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#2D7600;align=center;fillColor=#60a917;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="850" y="530" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="poLIaAcreYnyi9g2G59k-74" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#006EAF;align=center;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="445" y="335" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="poLIaAcreYnyi9g2G59k-75" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#006EAF;align=center;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="445" y="540" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="poLIaAcreYnyi9g2G59k-77" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#006EAF;align=center;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="150" y="200" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="poLIaAcreYnyi9g2G59k-78" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#006EAF;align=center;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="150" y="305.5" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="poLIaAcreYnyi9g2G59k-79" value="先定时模式检查MongoDB恢复，待恢复后切换循环模式消费文件队列数据并持久化MongoDB(再次故障后将重新进入定时模式）" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="880" y="529" width="270" height="51" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
