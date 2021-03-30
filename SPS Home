@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-30T08:15:05.090Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="VDbZzqHEaWFW6gHJGITC" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-30T08:15:30.277Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="5p7XL5w7nEIuw2-XRzpo" version="14.5.3" type="github">
   <diagram id="MoO0cnyyP2UefW5mUaq-" name="stakeholder model">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="gKRDd-9Ncf6lRHDHquEl-2" value="主要参与者：和系统的UI或API直接交互以达成目标" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="330" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gKRDd-9Ncf6lRHDHquEl-3" value="SPS Home 利益相关者模型" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=24;" parent="1" vertex="1">
+        <mxCell id="gKRDd-9Ncf6lRHDHquEl-3" value="SPS Home Stakeholder Model" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=24;" parent="1" vertex="1">
           <mxGeometry x="292" y="30" width="166" height="90" as="geometry" />
         </mxCell>
         <mxCell id="gKRDd-9Ncf6lRHDHquEl-4" value="次要参与者：帮助主要参与者达成他们目标" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
