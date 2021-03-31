@@ -1,1 +1,92 @@
-<mxfile host="app.diagrams.net" modified="2021-03-31T06:12:29.212Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" version="14.5.3" etag="ZU6Y46LDFGUe8kfnBIDq" type="github"><diagram id="GCOBnhxpqRuqpy7Tzx4Q">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-31T06:19:29.127Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="N-EqiRNbFhDonj1bNkfD" version="14.5.3" type="github">
+  <diagram id="GCOBnhxpqRuqpy7Tzx4Q" name="Page-1">
+    <mxGraphModel dx="2374" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lWU7beJMVpA_c9xp-Dsy-31" value="MongoDB集群" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="558" y="90" width="275" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="lWU7beJMVpA_c9xp-Dsy-32" value="调用方" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="50" y="400" width="210" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="lWU7beJMVpA_c9xp-Dsy-33" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="384" width="440" height="306" as="geometry" />
+        </mxCell>
+        <mxCell id="lWU7beJMVpA_c9xp-Dsy-34" value="内部服务" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="370" y="410" width="430" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="lWU7beJMVpA_c9xp-Dsy-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="lWU7beJMVpA_c9xp-Dsy-37" target="lWU7beJMVpA_c9xp-Dsy-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="434" y="320" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lWU7beJMVpA_c9xp-Dsy-37" value="请求处理线程" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="400" y="450" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lWU7beJMVpA_c9xp-Dsy-38" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lWU7beJMVpA_c9xp-Dsy-39" value="服务调用实例1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lWU7beJMVpA_c9xp-Dsy-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lWU7beJMVpA_c9xp-Dsy-32" target="lWU7beJMVpA_c9xp-Dsy-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lWU7beJMVpA_c9xp-Dsy-79" value="check结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lWU7beJMVpA_c9xp-Dsy-40">
+          <mxGeometry x="-0.3429" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lWU7beJMVpA_c9xp-Dsy-41" value="Redis集群" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="350" y="90" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="lWU7beJMVpA_c9xp-Dsy-42" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="125" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lWU7beJMVpA_c9xp-Dsy-43" value="Redis" style="rounded=1;whiteSpace=wrap;html=1;align=right;" vertex="1" parent="1">
+          <mxGeometry x="375" y="140" width="85" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lWU7beJMVpA_c9xp-Dsy-44" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
+          <mxGeometry x="377" y="152.5" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="lWU7beJMVpA_c9xp-Dsy-45" value="优先查询Redis缓存的结果及状态，缓存有直接返回，缓存无或者故障降级查询MongoDB" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="180" y="200" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lWU7beJMVpA_c9xp-Dsy-46" value="MongoDB查询结果及状态" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="180" y="300" width="155" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="lWU7beJMVpA_c9xp-Dsy-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lWU7beJMVpA_c9xp-Dsy-58" target="lWU7beJMVpA_c9xp-Dsy-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lWU7beJMVpA_c9xp-Dsy-58" value="MongoDB&lt;br&gt;主库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8;strokeColor=#000000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="582.5" y="130" width="75" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="lWU7beJMVpA_c9xp-Dsy-59" value="MongoDB&lt;br&gt;从库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8;strokeColor=#000000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="720" y="130" width="75" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="lWU7beJMVpA_c9xp-Dsy-60" value="数据同步" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="140" width="53" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lWU7beJMVpA_c9xp-Dsy-62" value="" style="endArrow=classic;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0.143;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="lWU7beJMVpA_c9xp-Dsy-37" target="lWU7beJMVpA_c9xp-Dsy-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="747.5" y="425" as="sourcePoint" />
+            <mxPoint x="770" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lWU7beJMVpA_c9xp-Dsy-75" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#006EAF;align=center;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="445" y="335" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lWU7beJMVpA_c9xp-Dsy-77" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#006EAF;align=center;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="150" y="200" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lWU7beJMVpA_c9xp-Dsy-78" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#006EAF;align=center;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="150" y="305.5" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lWU7beJMVpA_c9xp-Dsy-83" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#006EAF;align=center;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="558" y="331" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
